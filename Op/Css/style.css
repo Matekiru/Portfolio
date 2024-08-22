@@ -43,6 +43,9 @@
 .navbar-items li {
     padding: 30px;
 }
+@media only screen and (min-width: 760){
+
+}
 .logo {
     width: 200px;
 }
@@ -53,9 +56,26 @@
     padding: 50px;
     padding-top: 100px;
     background-color: #07060C;
-    color: #eee;
+    color: wheat;
+
+    
    
 }
+.img-inicio{
+    padding: 40px;
+    background-color: #07060C;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-inicio img{
+    padding-top:80px ;
+    width: 50%;
+    text-align: center;
+    
+}
+
 #about{
     padding: 50px;
     background-color: #07060C;
@@ -182,7 +202,7 @@
 }
 .imgcreator{
      
-      display: inline-block; position: relative; width: 500px; height: 200px; overflow: hidden; border-radius: 50%;  width: auto; height: 100%; margin-left: -50px;
+        width: 500px; height: 200px; overflow: hidden; border-radius: 50%;  width: auto; height: 100%; margin-left: -50px;
 }
 #news{
 
@@ -261,6 +281,25 @@ form{
  /*gambiarra*/
 .formnews p {
     padding: 5px;
+}
+.cntt{
+    width: 100%;
+    background-color: #07060C;
+    padding: 50px;
+   text-align: center;
+    
+}
+.cntt p {
+    color: #eee;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 15px;
+    text-align: center;
+}
+
+body{
+    background-color: #07060C;
 }
 
  
